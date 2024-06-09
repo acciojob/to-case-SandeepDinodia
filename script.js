@@ -1,4 +1,4 @@
-function(toCase){
+function toCase(text){
 	let a=text.toLowerCase();
 	let b=text.toUpperCase();
 	let c=a.concate("-");
