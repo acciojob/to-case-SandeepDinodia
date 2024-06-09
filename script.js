@@ -1,11 +1,10 @@
-function toCase(text) {
+function(toCase){
 	let a=text.toLowerCase();
 	let b=text.toUpperCase();
-	let c=a.concat("-");
-	let d=c.concat(b);
+	let c=a.concate("-");
+	let d=c.concate(b);
 
 	return d;
-  // write your code here
 }
 
 // DO not change the code below
